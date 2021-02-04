@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import axios from 'axios'
 import './App.css'
+import Coin from './Coin'
 
 
 
@@ -29,6 +30,7 @@ function App() {
             className='coin-input'/>
         </form>
       </div>
+      <Coin/>
     </div>
   );
 }
